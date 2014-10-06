@@ -13,10 +13,16 @@ github_username:  makeiteasy
 rss_path: "feed.xml"
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
+# extensions: [fenced_code_blocks]
 
 author:
+  name: 代如刚
   bio: David 默言
   github: makeiteasy
   email_md5: 20dd8002c39f3b564675914c9858a2cd
   email: rugang6891@gmail.com
+
+# 分页
+paginate: 10

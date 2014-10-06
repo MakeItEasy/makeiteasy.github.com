@@ -1,0 +1,9 @@
+      <div class="post-date">
+        <p>{{ page.date | date: "%b" }}<br>{{ page.date | date: "%d" }}</p>
+      </div>
+      <div class="tags">
+        <i class="fa fa-tag"></i>
+        {% for category in page.categories %}
+          <span class="tag">{{ category }}</span>
+        {% endfor %}
+      </div>

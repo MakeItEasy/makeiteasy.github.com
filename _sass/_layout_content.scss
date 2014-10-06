@@ -1,0 +1,107 @@
+/**
+ * content side : 右侧的side
+ */
+.content-side {
+  padding: 0px;
+}
+
+/**
+ * main-content : 右侧内容区域，除去footer部分
+ */
+.main-content {
+  padding: 0 30px;
+}
+/**
+ * 主页 > 文章列表
+ */
+.post-list {
+  padding-top: $padding-top;
+  color: #000;
+}
+
+.post-list > .post {
+	margin-bottom: 30px;
+}
+.post-list > .post, 
+.per-post > .post-content {
+  background-color: #fff;
+  padding: 30px;
+}
+
+/**
+ * Post明细页面 > post
+ */
+.per-post {
+  padding-top: $padding-top;
+}
+
+/**
+ * 文章
+ */
+article {
+  color: rgb(102, 102, 102);
+
+  // 小标题
+  h4 {
+    border-bottom: 1px solid #ddd;
+    color: #574c4c;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+
+  blockquote {
+    background: #f6f6f6;
+    border-left: 5px solid #657b83;
+    margin-top: 10px;
+    padding: 15px 20px;
+  }
+
+}
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+  text-align: center;
+}
+.post-meta .post-date {
+  border-radius: 50%;
+  background-color: #88acdb;
+  color: #fff;
+  margin: auto;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  p {
+    font-size: 20px;
+    padding: 2px;
+  }
+}
+.post-meta .tags {
+  margin-top: 10px;
+  .tag {
+    display: block;
+  }
+}
+
+.post-title {
+  display: block;
+  font-size: 0.8em;
+}
+.post-title:hover {
+  color: #657b83
+}
+.post-more {
+  margin-top: 10px;
+  a {
+    color: #fff;
+  }
+}
+
+/** per post中的一些特别的css */
+.per-post {
+  h2.title {
+    margin-bottom: 30px;
+  }
+}

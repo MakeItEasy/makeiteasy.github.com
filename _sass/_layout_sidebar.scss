@@ -1,0 +1,54 @@
+/**
+ * SideBar : 左侧sidebar
+ */
+.sidebar {
+  position: fixed;
+  top: 0px;
+  padding-top: 10%;
+  background-color: #277999;
+  color: #fff;
+  height: 100%;
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sidebar-header .title{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.sidebar-header .title a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#bio {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 11px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#contact-list li .fa {
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  transition:color .2s ease-out, background 1s ease-in;
+}
+#contact-list li:hover .fa{
+	color: #E93E30;
+	border-color: #00ACEE;
+}
+
+
+/** 
+ * footer
+ */
+footer {
+  margin-top: 20px;
+  text-align: center;
+}

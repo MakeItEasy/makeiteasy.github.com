@@ -1,0 +1,21 @@
+---
+layout: post
+title: "vim常用总结"
+date: 2013-03-07 10:44
+comments: true
+categories: [moyan manual, vim]
+---
+
+#### 自动补全
+
+1. `ctrl-x`
+2. `help i_ctrl-x`
+
+#### 收缩代码
+
+1. zf
+2. zdgit
+3. zo
+4. zc
+5. mkview
+6. loadvie

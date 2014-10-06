@@ -3,10 +3,13 @@
 ---
 @charset "utf-8";
 
-
+@import
+        "resources/bootstrap",
+        "resources/font-awesome";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑",  STXihei, "华文细黑", serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -14,8 +17,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$background-color: #e4e4e4;
+$brand-color:      #000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -23,6 +26,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$padding-top: 30px;
 
 
 
@@ -39,13 +44,10 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "resources/bootstrap",
-        "resources/font-awesome",
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "base",
+  "layout_sidebar",
+  "layout_content",
+  "syntax-highlighting"
 ;

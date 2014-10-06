@@ -1,0 +1,86 @@
+---
+layout: post
+title: "(专题)如何在vim中进行ruby，rails的debug调试"
+date: 2013-07-08 20:54
+comments: true
+categories: [weekly topic]
+---
+
+#### 前言
+
+本次主题是如何在vim中进行rails程序的debug调试。
+
+#### Vim准备
+
+* 使用插件:[vim-ruby-debugger](https://github.com/astashov/vim-ruby-debugger)    
+	该插件需要vim7以上版本，并且编译时开启了clientserver，signs功能。
+* 如何确认？  
+	在vim中运行version命令，查看结果中是否开启这两个功能。
+* 如何在编译时开启client-server功能。    
+	由于client-server需要使用GUI的一些组件，所以必须开启GUI。而开启GUI，在Linux中需要依赖一些X11的东西。我的做法是:  
+
+<!-- more -->
+
+在Centos中，先安装以下package。
+
+```
+yum -yv install libXt libXt-devel \
+libXpm libXpm-devel \
+libX11 libX11-common.noarch libX11-devel \
+ghc-cairo-devel  cairo   \
+libgnomeui-devel \
+ncurses ncurses-devel  ncurses-libs ncurses-static \
+ghc-gtk-devel gtk+-devel \
+gtk2  gtk2-devel \
+atk-devel atk \
+libbonoboui libbonoboui-devel 
+```
+
+从vim源代码重新编译，按照如下参数
+
+```
+./configure \
+--with-features=huge \
+--enable-multibyte \
+--enable-pythoninterp \
+--enable-perlinterp \
+--enable-gpm \
+--enable-cscope \
+--enable-fontset \
+--disable-darwin \
+--enable-gui=auto \
+--disable-netbeans \
+--enable-gtk-check=no \
+--enable-gtk2-check=no \
+--enable-gnome-check=no \
+--enable-motif-check=no \
+--enable-athena-check=no \
+--enable-nextaw-check=no \
+--enable-carbon-check=no
+```
+
+如果是ubuntu的情况下，可以参照如下连接（本人未测试）:  
+[http://vim.wikia.com/wiki/Building_Vim](http://vim.wikia.com/wiki/Building_Vim)
+
+主要是安装以下package:
+
+```
+sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
+  libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
+  libcairo2-dev libx11-dev libxpm-dev libxt-dev
+```
+
+启动vim:  `vim --servername VIM`  
+
+查看ruby-debug的帮助:`help ruby-debug`
+
+#### Rails Debug
+
+* 在Gemfile中添加如下:
+
+```ruby
+# ruby 1.8.7的时候
+gem "ruby-debug-ide"
+```
+
+* 在Vim中启动debug: `:Rdebugger`
