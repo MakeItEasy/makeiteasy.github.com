@@ -5,7 +5,7 @@ layout: default
   <div class="post-content">
     <div class="col-sm-10">
       <article>
-          <h2 class="title"><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+          <h2 class="title"><a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
           <div>
             {{ content }}
           </div>
@@ -15,6 +15,14 @@ layout: default
       {% include post_meta.html %}
     </div>
     <div class="clearfix"></div>
+  </div>
+
+  <div class="clearfix">
+    {% include jia_this.html %}
+  </div>
+
+  <div class="clearfix">
+    {% include duoshuo.html %}
   </div>
 </div>
 
