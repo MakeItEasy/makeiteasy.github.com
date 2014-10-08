@@ -16,4 +16,10 @@ comments: true
 * 添加了所有文章链接
 * 主题的设计参照了 [Litten的博客](http://litten.github.io/) , 此博客是用 [Hexo](http://hexo.io/) 构建的.
 
+#### TODOs
 
+* 添加category，tag archive
+* 添加简单全文搜索
+* 添加Aboutme内容
+* 添加简历
+* 添加projects
