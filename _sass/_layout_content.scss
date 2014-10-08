@@ -22,9 +22,11 @@
 .post-list > .post {
 	margin-bottom: 30px;
 }
+
+.archives,
 .post-list > .post, 
 .per-post > .post-content {
-  background-color: #fff;
+  background-color: $content-background-color;
   padding: 30px;
 }
 
@@ -109,4 +111,28 @@ article {
 /** 分享到 */
 .jiathis_style, .duoshuo {
   margin-top: 30px;
+}
+
+/** archives */
+.archives {
+  ul {
+    list-style: none;
+
+    li {
+      padding: 10px 0;
+      margin-left: 60px;
+      border-bottom: 1px solid #eee;
+    }
+  }
+  .year {
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  .post-date {
+    font-size: 12px;
+    color: $grey-color;
+    font-family: "Times New Roman",Georgia,Serif;
+  }
 }

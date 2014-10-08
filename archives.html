@@ -1,0 +1,31 @@
+---
+layout: default
+title: 所有文章
+---
+<!--
+copied from: http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html
+-->
+<div class="main-content">
+  <div class="archives">
+    <ul>
+      {% for post in site.posts %}
+        {% unless post.next %}
+          <h3 class="year">{{ post.date | date: '%Y' }}</h3>
+        {% else %}
+          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+          {% if year != nyear %}
+            <h3 class="year">{{ post.date | date: '%Y' }}</h3>
+          {% endif %}
+        {% endunless %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <span class="post-date pull-right">
+            <i class="fa fa-calendar"></i>&nbsp;
+            {{ post.date | date: "%Y年%m月%d日" }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
