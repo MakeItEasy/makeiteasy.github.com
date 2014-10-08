@@ -3,7 +3,8 @@ layout: post
 title: "我常使用的rails gem包"
 date: 2013-05-27 18:56
 comments: true
-categories: [moyan manual, rails]
+categories: [manual]
+tags: [rails, gem]
 ---
 
 #### 前言

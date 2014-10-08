@@ -3,7 +3,7 @@ layout: post
 title: "Ruby,Rails的一些概念和注意点"
 date: 2013-02-05 14:39
 comments: true
-categories: [ruby, rails]
+tags: [ruby, rails]
 ---
 
 #### Ruby,Rails的一些概念

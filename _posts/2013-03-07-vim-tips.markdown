@@ -3,7 +3,8 @@ layout: post
 title: "vim常用总结"
 date: 2013-03-07 10:44
 comments: true
-categories: [moyan manual, vim]
+categories: [manual]
+tags: [vim]
 ---
 
 #### 自动补全

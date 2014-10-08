@@ -3,7 +3,7 @@ layout: post
 title: "如何在vim中进行ruby，rails的debug(针对ruby>=1.9 && use debugger-xml gem)"
 date: 2013-11-11 15:48
 comments: true
-categories: [rails, vim]
+tags: [rails, vim]
 ---
 
 #### 概要说明

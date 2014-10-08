@@ -3,7 +3,7 @@ layout: post
 title: "linux下网络设置"
 date: 2013-04-11 17:26
 comments: true
-categories: [linux]
+tags: [linux]
 ---
 
 #### Ubuntu系统

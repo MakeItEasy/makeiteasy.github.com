@@ -3,7 +3,7 @@ layout: post
 title: "关于Rails中的SSL"
 date: 2013-05-22 10:59
 comments: true
-categories: [rails, ssl]
+tags: [rails, ssl]
 ---
 
 #### 关于force SSL请求的配置

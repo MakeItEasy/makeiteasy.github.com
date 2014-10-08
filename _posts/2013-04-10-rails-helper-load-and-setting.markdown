@@ -3,7 +3,7 @@ layout: post
 title: "rails中helper的加载和相关设置，以及如何设置不全部加载所有helper"
 date: 2013-04-10 10:30
 comments: true
-categories: [rails]
+tags: [rails]
 ---
 
 #### 关于helper的总结

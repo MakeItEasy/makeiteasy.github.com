@@ -3,7 +3,8 @@ layout: post
 title: "linux常用命令"
 date: 2012-12-31 23:47
 comments: true
-categories: [linux, moyan manual]
+categories: [manual]
+tags: [linux]
 ---
 
 #### 桌面命令类

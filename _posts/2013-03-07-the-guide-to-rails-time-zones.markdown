@@ -3,7 +3,7 @@ layout: post
 title: "rails应用中timezones的正确用法"
 date: 2013-03-08 11:08
 comments: true
-categories: [rails]
+tags: [rails]
 ---
 
 #### 说明

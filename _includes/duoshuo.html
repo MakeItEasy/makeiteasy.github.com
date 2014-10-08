@@ -1,3 +1,4 @@
+{% if page.comments %}
 <!-- 多说评论框 start -->
   <div class="duoshuo ds-thread" data-thread-key="{{ page.date | date: "%Y%m%d"}}_{{ page.url | split:"/" | last | split: "." | first }}" 
        data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.baseurl }}"></div>
@@ -15,3 +16,4 @@ var duoshuoQuery = {short_name:"makeiteasy"};
   })();
   </script>
 <!-- 多说公共JS代码 end -->
+{% endif %}

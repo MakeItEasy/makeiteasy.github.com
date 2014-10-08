@@ -3,7 +3,7 @@ layout: post
 title: "在局域网（LAN）中访问webrick服务器速度过慢"
 date: 2013-01-25 16:09
 comments: true
-categories: [rails]
+tags: [rails]
 ---
 
 #### 问题现象描述

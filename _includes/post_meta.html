@@ -1,9 +1,11 @@
       <div class="post-date">
         <p>{{ page.date | date: "%b" }}<br>{{ page.date | date: "%d" }}</p>
       </div>
+      {% if page.tags.size > 0 %}
       <div class="tags">
         <i class="fa fa-tag"></i>
-        {% for category in page.categories %}
-          <span class="tag">{{ category }}</span>
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
         {% endfor %}
       </div>
+      {% endif %}

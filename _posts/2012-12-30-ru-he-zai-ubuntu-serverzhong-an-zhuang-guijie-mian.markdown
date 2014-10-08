@@ -3,7 +3,7 @@ layout: post
 title: "如何在ubuntu server中安装GUI界面"
 date: 2012-12-30 13:41
 comments: true
-categories: [linux, ubuntu]
+tags: [linux, ubuntu]
 ---
 
 #### 关于ubuntu server

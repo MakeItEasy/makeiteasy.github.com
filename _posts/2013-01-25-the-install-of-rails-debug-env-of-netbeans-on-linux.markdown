@@ -3,7 +3,7 @@ layout: post
 title: "LinuxでNetBeansでrailsのDebug環境の構築"
 date: 2013-01-25 14:58
 comments: true
-categories: [linux, rails, env install]
+tags: [linux, rails, env install]
 ---
 
 #### 前言

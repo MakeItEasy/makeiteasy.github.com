@@ -3,7 +3,7 @@ layout: post
 title: "我在调查jpmobile过程中的总结"
 date: 2013-11-12 13:27
 comments: false
-categories: [rails]
+tags: [rails]
 ---
 
 #### 概述

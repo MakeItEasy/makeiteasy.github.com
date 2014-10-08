@@ -3,7 +3,8 @@ layout: post
 title: "(专题)如何在vim中进行ruby，rails的debug调试"
 date: 2013-07-08 20:54
 comments: true
-categories: [weekly topic]
+categories: [topic]
+tags: [rails, vim, debug]
 ---
 
 #### 前言

@@ -3,7 +3,7 @@ layout: post
 title: "WindowsでNetBeansでrailsのDebug環境の構築(失敗した)"
 date: 2013-01-25 15:36
 comments: true
-categories: [rails, env install]
+tags: [rails, env install]
 ---
 
 #### 前言

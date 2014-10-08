@@ -3,7 +3,7 @@ layout: post
 title: "windows下安装ctags"
 date: 2013-03-07 10:21
 comments: true
-categories: [vim]
+tags: [vim]
 ---
 
 #### 背景

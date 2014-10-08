@@ -23,12 +23,15 @@ layout: default
           <div class="post-date">
             <p>{{ post.date | date: "%b" }}<br>{{ post.date | date: "%d" }}</p>
           </div>
+          
+          {% if post.tags.size > 0 %}
           <div class="tags">
             <i class="fa fa-tag"></i>
-            {% for category in post.categories %}
-              <span class="tag">{{ category }}</span>
+            {% for tag in post.tags %}
+              <span class="tag">{{ tag }}</span>
             {% endfor %}
           </div>
+          {% endif %}
         </div>
         <div class="clearfix"></div>
       </div>

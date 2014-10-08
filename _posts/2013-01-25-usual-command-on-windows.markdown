@@ -3,7 +3,7 @@ layout: post
 title: "Windows常用命令"
 date: 2013-01-25 16:50
 comments: true
-categories: [moyan manual]
+categories: [manual]
 ---
 
 #### 命令一览
