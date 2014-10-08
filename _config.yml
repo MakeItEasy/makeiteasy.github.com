@@ -12,6 +12,9 @@ url:
 github_username:  makeiteasy
 rss_path: "feed.xml"
 
+# Output settings
+permalink: /:year/:month/:day/:title.html
+
 # Build settings
 # markdown: kramdown
 markdown: redcarpet
