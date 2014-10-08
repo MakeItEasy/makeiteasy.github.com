@@ -2,9 +2,8 @@
 title: To Be Continue
 email: rugang6891@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  David, To Be Continue. 这里是David的个人博客。
+  一个80后程序员的技术小窝。喜欢技术，热爱生活...
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://makeiteasy.github.com" # the base hostname & protocol for your site
 url: 
