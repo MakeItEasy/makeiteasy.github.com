@@ -18,3 +18,7 @@ tags: [ruby, rails]
 #### Ruby,Rails的一些注意点
 
 * .ru后缀的文件就是rackup文件。比如rails应用中的config.ru,可以通过 `rackup config.ru` 来执行rackup文件。
+
+#### Proc, block, lambda区别
+
+* Proc，block就相当于代码块，而lambda相当于匿名函数
