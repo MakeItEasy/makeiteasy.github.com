@@ -6,7 +6,13 @@ layout: default
     <div class="col-sm-10">
       <article>
           <h2 class="title"><a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-          <div>
+          {% if page.description%}
+            <div class="description">
+              <span>摘要:</span>
+              {{ page.description }}
+            </div>
+          {% endif %}
+          <div class="content">
             {{ content }}
           </div>
       </article>

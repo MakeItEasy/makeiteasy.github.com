@@ -42,7 +42,19 @@
  */
 article {
   color: rgb(102, 102, 102);
+}
 
+// 文章摘要
+article > .description {
+  background-color: #FFFDDF;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #000;
+  font-style: italic;
+  border: 1px dotted #9F9B63;
+}
+
+article > .content {
   // 小标题
   h4 {
     border-bottom: 1px solid #ddd;
@@ -58,10 +70,20 @@ article {
     border-left: 5px solid #657b83;
     margin-top: 10px;
     padding: 15px 20px;
+    font-size: 15px;
   }
 
   li {
     margin: 5px 0;
+  }
+
+  // 链接
+  a {
+    margin: 0 5px;
+    color: #277999;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
 .post-meta {

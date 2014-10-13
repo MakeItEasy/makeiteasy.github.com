@@ -19,7 +19,6 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #e4e4e4;
 $brand-color:      #000;
 
 $on-palm:          600px;
@@ -27,6 +26,8 @@ $on-laptop:        800px;
 
 $padding-top: 30px;
 
+// 主背景色(body)
+$background-color: #e4e4e4;
 // 文章列表， 文章，归档文章等工作区域的背景色
 $content-background-color: #fff;
 // meta font color
