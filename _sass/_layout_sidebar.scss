@@ -98,4 +98,12 @@
 footer {
   margin-top: 20px;
   text-align: center;
+  // 链接
+  a {
+    margin: 0 3px;
+    color: #277999;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
