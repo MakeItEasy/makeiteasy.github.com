@@ -87,10 +87,46 @@
   transition:color .2s ease-out, background 1s ease-in;
 }
 #contact-list li:hover .fa{
-	color: #E93E30;
-	border-color: #00ACEE;
+	// color: #E93E30;
+	// border-color: #00ACEE;
 }
 
+.btn-contact {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  padding: 0px;
+  // border: 1px solid #bebebe;
+  border-radius: 50%;
+  background-color: #bebebe;
+  color: #fff;
+  font-size: 14px;
+  .fa {
+    color: #fff;
+    line-height: 36px;
+    vertical-align: baseline;
+  }
+}
+.btn-contact-github {
+  &:hover {
+    background-color: #aaf;
+  }
+  .fa {
+    margin-right: 1px;
+  }
+}
+
+.btn-contact-email {
+  &:hover {
+    background-color: #5B96A8;
+  }
+}
+
+.btn-contact-rss{
+  &:hover {
+    background-color: #F78435;
+  }
+}
 
 /** 
  * footer
@@ -107,3 +143,4 @@ footer {
     text-decoration: underline;
   }
 }
+
