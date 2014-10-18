@@ -2,8 +2,8 @@
 layout: post
 title: "rails server是如何启动的"
 date: "2014-10-17 10:14:41 +0800"
-tags: [rails]
-description: "分析了Rails的启动流程，特别注意，Rails源码版本：4.1.6"
+tags: [rails启动流程]
+description: "分析了rails server是如何启动的，特别注意，Rails源码版本：4.1.6"
 ---
 
 当我们启动一个rails应用时，比如我们运行`rails server`命令，到底后台是如何运行的？
@@ -111,3 +111,8 @@ end
 
 这里只是简单的分析了server的启动流程，其实针对一个Rails application，它的启动过程中还做了更多的事情。
 有时间的话，再继续写一些application的启动流程相关的内容。
+
+#### 追加信息
+[2014-10-18] -- 
+接下来的分析参照：
+[Rails Application启动流程]({% post_url 2014-10-18-rails-application-booting-process %})
