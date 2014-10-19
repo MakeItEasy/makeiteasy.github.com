@@ -6,6 +6,8 @@ comments: true
 tags: [rails]
 ---
 
+[Rails应用中的middleware们]({% post_url 2014-10-19-middleware-in-rails-application %})
+
 middleware在rack规范中是一个很重要的概念。在rails中，一个app，其实就是各种middleware一层一层嵌套起来工作的。
 
 在rails app中，middleware可以分为三类：
