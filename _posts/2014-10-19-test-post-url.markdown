@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails应用中的middleware们"
-date: "2014-10-19 00:17:38 +0800"
+date: "2014-10-19 10:17:38 +0800"
 comments: true
 tags: [rails]
 ---
