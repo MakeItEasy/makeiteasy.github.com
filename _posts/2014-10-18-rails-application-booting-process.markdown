@@ -18,6 +18,7 @@ tags: [rails启动流程]
 * [rack](https://github.com/rack/rack)
 * middleware（可以参考博文：
 [test post]({% post_url 2014-10-19-test-post-url %})
+[Rails应用中的middleware们]({% post_url 2014-10-19-middleware-in-rails-application %})
 ）
 
 以下是一些小tips，可以事前了解：
