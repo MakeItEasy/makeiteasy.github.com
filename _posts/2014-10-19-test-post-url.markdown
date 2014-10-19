@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "test post url"
-date: "2014-10-19 14:56:59 +0800"
-description: "test post"
+title: "Rails应用中的middleware们"
+date: "2014-10-19 00:17:38 +0800"
 comments: true
-tags: [rails启动流程]
+tags: [rails]
 ---
 
 middleware在rack规范中是一个很重要的概念。在rails中，一个app，其实就是各种middleware一层一层嵌套起来工作的。
