@@ -14,7 +14,7 @@ comments: true
 
 * 添加了多说评论，JiaThis分享
 * 添加了所有文章链接
-* 主题的设计参照了 [Litten的博客](http://litten.github.io/) , 此博客是用 [Hexo](http://hexo.io/) 构建的.
+* 主题的设计参照了 [Litten的博客](http://litten.github.io/) , 该博客是用 [Hexo](http://hexo.io/) 构建的.
 
 #### TODOs
 
