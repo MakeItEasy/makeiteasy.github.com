@@ -10,7 +10,9 @@ tags: [ios]
 类似于Rails中的ActiveRecord。  
 
 #### 前提说明
-这里不是一个guide，而是记录自己在使用中的过程以及问题。
+
+* 这里不是一个guide，而是记录自己在使用中的过程以及问题。
+* 该文章对应Example的github项目地址： [MagicalRecordExample项目Github地址](https://github.com/MakeItEasy/MagicalRecordExample)
 
 #### 安装
 
