@@ -81,7 +81,7 @@ pod "MagicalRecord"
 
 这里只是列出了关键代码，具体的工程可以参考以下链接：
 
-[MagicalRecordExample项目Github地址]()
+[MagicalRecordExample项目Github地址](https://github.com/MakeItEasy/MagicalRecordExample)
 
 ##### 在AppDelegate中配置CoreDataStack
 
