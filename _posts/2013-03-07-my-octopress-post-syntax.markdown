@@ -43,3 +43,6 @@ categories: [manual]
 puts 'hello world'
 ```
 
+#### 嵌入图片
+
+![jsonp处理流程图](/images/2014-10-11-cross-origin-resource-sharing/jsonp处理流程图.png "jsonp处理流程图")
