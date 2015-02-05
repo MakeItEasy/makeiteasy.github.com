@@ -22,6 +22,7 @@ tags: [ios]
 # Podfile中添加以下内容
 pod "MagicalRecord"
 ```
+<!-- more -->
 
 #### 新建项目以及配置
 
