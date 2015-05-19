@@ -14,6 +14,22 @@ Mac系统的话，推荐使用HomeBrew来安装各种软件。
 
 ```
 brew install elasticsearch
+---------------以下为控制台输出结果---------------------------
+==> Downloading https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.4.tar.gz
+######################################################################## 100.0%
+==> 
+To have launchd start elasticsearch at login:
+    ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents
+Then to load elasticsearch now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+Or, if you don't want/need launchctl, you can just run:
+    elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml
+==> Summary
+🍺  /usr/local/Cellar/elasticsearch/1.4.4: 33 files,  29M, built in 46 secondsCaveats
+Data:    /usr/local/var/elasticsearch/elasticsearch_moyan/
+Logs:    /usr/local/var/log/elasticsearch/elasticsearch_moyan.log
+Plugins: /usr/local/var/lib/elasticsearch/plugins/
+Config:  /usr/local/etc/elasticsearch/
 ```
 
 如果是Linux发行版的话，可以通过apt-get,yum进行安装。
@@ -170,6 +186,7 @@ include Elasticsearch::Model::Callbacks
 * [ elasticsearch官网 ](https://www.elastic.co/)
 * [elasticsearch中文向导](http://www.elasticsearch.cn/)
 * [happycast视频](http://haoduoshipin.com/v/104)
+* [elasticsearch插件介绍](http://searchtech.pro/elasticsearch-plugins)
 
 
 (The End)
