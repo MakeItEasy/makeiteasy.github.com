@@ -103,6 +103,59 @@ SSL/TLS的具体流程可参考阮一峰老师的文章：[SSL/TLS协议运行�
 3. 如果描述文件正常，那么拿出描述文件中的证书信息，从证书中可以拿到开发者的公钥
 4. 使用开发者的公钥对`_CodeSignature/CodeResources`中的签名进行解密，同时对指定的文件进行摘要加密，比对双方的结果
 
+#### 参考链接博客中提出的一些命令总结
+
+列出系统中可用于签名的有效证书：
+
+```shell
+security find-identity -v -p codesigning
+```
+
+查看苹果生成的证书中具体有哪些内容：
+
+```shell
+openssl x509 -inform der -in ios_development.cer -noout -text
+```
+
+查看CertificateSigningRequest文件中有啥内容：
+
+```
+openssl asn1parse -i -in CertificateSigningRequest.certSigningRequest
+```
+
+查看描述文件内容：
+
+```
+security cms -D -i embedded.mobileprovision
+```
+
+将描述文件中的DeveloperCertificates中的证书单独copy到一个文件中，组织成如下格式后，
+
+```
+# 这里要注意每行是64个字符，然后要有换行
+-----BEGIN CERTIFICATE-----
+MIIFnjCCBIagAwIBAgIIE/IgVItTuH4wDQYJKoZIhvcNAQEFBQAwgZYxCzA…
+-----END CERTIFICATE-----
+```
+
+可通过命令查看：
+
+```
+openssl x509 -text -in file.pem
+```
+
+列出一些有关 Example.app 的签名信息:
+
+```
+codesign -vv -d Example.app
+```
+
+验证签名是否完好:
+
+```
+codesign --verify Example.app
+```
+
 #### 参考链接
 
 * [百度文库-DH算法文档,里面有示例说明](http://wenku.baidu.com/view/a880a99f51e79b89680226f9.html)
