@@ -28,3 +28,4 @@ author:
 
 # 分页
 paginate: 10
+gems: [jekyll-paginate]
