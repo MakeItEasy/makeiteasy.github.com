@@ -29,3 +29,15 @@ author:
 # 分页
 paginate: 10
 gems: [jekyll-paginate]
+
+collections:
+  slides:
+    output: true
+    permalink: /slides/:path/:title.html
+
+defaults:
+  - scope:
+      path: ""
+      type: slides
+    values:
+      layout: slide

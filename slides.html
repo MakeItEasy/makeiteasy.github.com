@@ -1,0 +1,19 @@
+---
+layout: default
+title: 所有幻灯片
+---
+<div class="main-content">
+  <div class="archives">
+    <ul>
+      {% for slide in site.slides %}
+        <li>
+          <a href="{{ slide.url }}" target="_blank">[Slide] {{ slide.title }}</a>
+          <span class="post-date pull-right">
+            <i class="fa fa-calendar"></i>&nbsp;
+            {{ slide.date | date: "%Y年%m月%d日" }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
