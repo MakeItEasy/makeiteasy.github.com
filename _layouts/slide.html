@@ -35,6 +35,8 @@
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="{{ "/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
 
+    <link rel="stylesheet" href="{{ "/css/slide.css" | prepend: site.baseurl }}">
+
     <!-- Printing and PDF exports -->
     <script>
       var link = document.createElement( 'link' );
@@ -69,7 +71,7 @@
       Reveal.initialize({
         controls: true,
         progress: true,
-        history: true,
+        history: false,
         center: true,
         {%if page.transition %}
           transition: '{{page.transition}}',
