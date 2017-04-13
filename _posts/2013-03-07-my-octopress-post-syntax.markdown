@@ -3,6 +3,7 @@ layout: post
 title: "我的octopress博客写法总结"
 date: 2013-03-07 10:51
 comments: true
+nolicense: true
 categories: [manual]
 ---
 
