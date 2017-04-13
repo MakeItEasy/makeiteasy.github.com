@@ -49,6 +49,6 @@ puts 'hello world'
 
 
 #### 嵌入视频
-<video src="/videos/xxx.mov" width="100%" controls="controls" preload="auto">
+<video src="/videos/rails_source_study/how rails server start.mp4" controls="controls" preload="auto">
 抱歉，您的浏览器不支持 video 标签，无法播放此视频。
 </video>
