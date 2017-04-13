@@ -203,3 +203,17 @@ pre {
 video {
   width: 100%;
 }
+
+/**
+ * 署名协议
+ */
+.license {
+	text-align: center;
+  margin: 10px 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.license a {
+	color: #428bca;
+}
