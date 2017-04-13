@@ -46,3 +46,9 @@ puts 'hello world'
 #### 嵌入图片
 
 ![jsonp处理流程图](/images/2014-10-11-cross-origin-resource-sharing/jsonp处理流程图.png "jsonp处理流程图")
+
+
+#### 嵌入视频
+<video src="/videos/xxx.mov" width="100%" controls="controls" preload="auto">
+抱歉，您的浏览器不支持 video 标签，无法播放此视频。
+</video>
