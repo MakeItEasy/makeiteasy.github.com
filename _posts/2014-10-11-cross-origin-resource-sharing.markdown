@@ -21,7 +21,7 @@ comments: true
 
 > 由于同源策略，一般来说位于 server1.example.com 的网页无法与不是 server1.example.com 的服务器沟通，而 HTML 的 `<script>` 元素是一个例外。利用 `<script>` 元素的这个开放策略，网页可以得到从其他来源动态产生的 JSON 资料，而这种使用模式就是所谓的 JSONP。用 JSONP 抓到的资料并不是 JSON，而是任意的 JavaScript，用 JavaScript 直译器执行而不是用 JSON 解析器解析。
 
-所有支持Javascript的浏览起都支持[同源策略]
+所有支持Javascript的浏览器都支持[同源策略]
 (http://zh.wikipedia.org/wiki/%E5%90%8C%E6%BA%90%E7%AD%96%E7%95%A5)
 (来自维基百科)，而html中的img，script等标签是不用遵循同源策略的。JSONP相当与利用了script的这个特点，去加载不同origin的资源。
 
