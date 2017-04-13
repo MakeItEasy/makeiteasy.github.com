@@ -10,6 +10,10 @@ comments: true
 
 #### hello, jekyll!
 
+2017-04-13: 添加了署名协议
+
+2017-04-10: 添加了slide模块
+
 2014-10-05: 使用jekyll重新设计自己的博客
 
 * 添加了多说评论，JiaThis分享
@@ -20,6 +24,6 @@ comments: true
 
 * 添加category，tag archive
 * 添加简单全文搜索
-* 添加Aboutme内容
 * 添加简历
-* 添加projects
+* <del>添加Aboutme内容(已完成)</del>
+* <del>添加projects(已完成)</del>
