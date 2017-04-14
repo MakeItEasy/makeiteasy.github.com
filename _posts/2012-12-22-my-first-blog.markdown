@@ -28,5 +28,6 @@ comments: true
 * 添加category，tag archive
 * 添加简单全文搜索
 * 添加简历
+* 适配移动端，以及safari的阅读模式
 * <del>添加Aboutme内容(已完成)</del>
 * <del>添加projects(已完成)</del>
