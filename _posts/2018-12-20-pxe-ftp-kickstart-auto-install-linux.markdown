@@ -69,13 +69,13 @@ DHCP服务的作用就是为局域网的客户机分配ip地址，并且告诉�
 
 - 安装dhcp服务 
 
-```shell
+```bash
 yum install dhcp
 ```
 
 - 设置配置文件
 
-```shell
+```config
 # cat /etc/dhcp/dhcpd.conf
 
 #
@@ -110,10 +110,12 @@ subnet 192.168.10.0 netmask 255.255.255.0 {
 
 - 将dhcpd服务设置为开机启动
 
-```shell
+```bash
 systemctl restart dhcpd
 systemctl enable dhcpd
 ```
+
+
 
 #### 配置TFTP服务
 
@@ -130,7 +132,7 @@ yum install tftp-server
 
 - 配置文件
 
-```
+```config
 # cat /etc/xinetd.d/tftp
 
 # default: off
@@ -162,7 +164,7 @@ systemctl enable xinetd
 
 - TFTP默认使用UDP协议，端口69，如果开启防火墙的话，那么需要将端口加入防火墙规则中。
 
-```shell
+```bash
 firewall-cmd --permanent --add-port=69/udp
 firewall-cmd --reload
 ```
@@ -208,7 +210,7 @@ cp /mnt/linux_iso/isolinux/isolinux.cfg /tftpboot/pxelinux.cfg/default
 - 修改default文件，主要是修改默认的选项菜单，以及光盘镜像安装方式的修改，并指定好光盘镜像的获取网址以及KickStart应答文件
 的获取路径
 
-```
+```config
 # vi /tftpboot/pxelinux.cfg/default
 
 
@@ -380,7 +382,7 @@ setsebool -P ftpd_connect_all_unreserved=on
 
 需要注意的是，修改ks文件中的url的部分
 
-```shell
+```config
 # /var/ftp/pub/ks.cfg
 
 #platform=x86, AMD64, 或 Intel EM64T
