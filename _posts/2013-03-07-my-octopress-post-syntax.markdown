@@ -55,3 +55,7 @@ puts 'hello world'
 <video src="/videos/rails_source_study/how rails server start.mp4" controls="controls" preload="auto">
 抱歉，您的浏览器不支持 video 标签，无法播放此视频。
 </video>
+
+#### 语法高亮
+
+- [rouge语言支持一览](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)
