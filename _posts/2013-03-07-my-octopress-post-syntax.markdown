@@ -59,3 +59,7 @@ puts 'hello world'
 #### 语法高亮
 
 - [rouge语言支持一览](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)
+
+#### Tips
+
+- [查看github pages服务的jekyll等版本](https://pages.github.com/versions/)
