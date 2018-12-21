@@ -15,9 +15,28 @@ rss_path: "feed.xml"
 permalink: /:year/:month/:day/:title.html
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+# markdown: redcarpet
 # extensions: [fenced_code_blocks]
+highlighter: rouge
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
 author:
   name: 代如刚
@@ -28,7 +47,7 @@ author:
 
 # 分页
 paginate: 10
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 collections:
   slides:
