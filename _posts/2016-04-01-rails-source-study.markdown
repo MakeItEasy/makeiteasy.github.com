@@ -14,6 +14,9 @@ description: "这里是自己之前分析Rails源码的视频的总结"
 
 #### 视频一：rails server如何启动的 
 
+
+<iframe src="//player.bilibili.com/player.html?aid=89726815&cid=153246716&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <video src="/videos/rails_source_study/how rails server start.mp4" controls="controls" preload="auto">
 抱歉，您的浏览器不支持 video 标签，无法播放此视频。
 </video>
