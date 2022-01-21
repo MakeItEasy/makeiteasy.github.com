@@ -14,35 +14,28 @@ description: "这里是自己之前分析Rails源码的视频的总结"
 
 #### 视频一：rails server如何启动的 
 
-<video src="/videos/rails_source_study/how rails server start.mp4" controls="controls" preload="auto">
-抱歉，您的浏览器不支持 video 标签，无法播放此视频。
-</video>
+<iframe class="bilibili_video" src="//player.bilibili.com/player.html?aid=89726815&cid=153246716&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 可参考之前的博客文章：
 [rails server是如何启动的]({% post_url 2014-10-17-how-rails-server-command-work %})
 
 #### 视频二：：Rails启动流程1(Rack和middleware相关)
 
-<video src="/videos/rails_source_study/rails application booting process_1(rack&middleware).mp4" controls="controls" preload="auto">
-抱歉，您的浏览器不支持 video 标签，无法播放此视频。
-</video>
+<iframe class="bilibili_video" src="//player.bilibili.com/player.html?aid=89735922&cid=153263371&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 可参考之前的博客文章：
 [Rails应用中的middleware们]({% post_url 2014-10-19-middleware-in-rails-application %})
 
 #### 视频三：Rails启动流程2
 
-<video src="/videos/rails_source_study/rails application booting process_2.mp4" controls="controls" preload="auto">
-抱歉，您的浏览器不支持 video 标签，无法播放此视频。
-</video>
+<iframe class="bilibili_video" src="//player.bilibili.com/player.html?aid=89736496&cid=153264789&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 可参考之前的博客文章：
 [Rails Application启动流程]({% post_url 2014-10-18-rails-application-booting-process %})
 
 #### 视频四：Rails启动流程3
-<video src="/videos/rails_source_study/rails application booting process_3.mp4" controls="controls" preload="auto">
-抱歉，您的浏览器不支持 video 标签，无法播放此视频。
-</video>
+
+<iframe class="bilibili_video" src="//player.bilibili.com/player.html?aid=89736863&cid=153265598&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 可参考之前的博客文章：
 [Rails Application启动流程]({% post_url 2014-10-18-rails-application-booting-process %})
